@@ -40,10 +40,3 @@ The goal of this project is to configure the GPIOs of the STM32F427IIH6 microcon
 ## Code Explanation
 
 The main code for toggling the LED is written in `Core/Src/main.c`:
-
-```c
-while (1)
-{
-    HAL_GPIO_TogglePin(GPIOx, GPIO_PIN_x);  // Replace GPIOx and GPIO_PIN_x with your specific configuration
-    HAL_Delay(500);  // Delay in milliseconds
-}
